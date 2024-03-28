@@ -1,0 +1,17 @@
+### Find All Content
+GET http://localhost:8080/api/content
+
+### Find Content by ID
+POST http://localhost:8080/api/content
+Content-Type: application/json
+
+{
+  "id": 2,
+  "title": "Blog post",
+  "desc": "This is amine's blog",
+  "status": "IN_PROGRESS",
+  "contenType": "ARTICLE",
+  "dateCreated": "2024-03-17T15:51:46.611548",
+  "dateUpdated": "2024-03-17T15:51:46.611563",
+  "url": "https://mycontent.com/amine-blog"
+}
