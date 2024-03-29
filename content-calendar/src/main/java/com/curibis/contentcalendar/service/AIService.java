@@ -11,10 +11,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class AIService {
 
-    // Global variables
-
-    // Ask a simple question to the model.
-    public static String simpleQuestion(String question) throws Exception {
+    public String simpleQuestion(String question) throws Exception {
         // Initialize client that will be used to send requests.
         // This client only needs to be created once, and can be reused for multiple requests.
         try (VertexAI vertexAI = new VertexAI(Config.projectId, Config.location)) {
