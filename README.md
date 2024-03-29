@@ -1,4 +1,4 @@
-# Gemini 1.0 Pro API
+# LLM API
 
 Welcome to Gemini 1.0 Pro API! This project provides a simple endpoint `/api/prompt` that interacts with the Gemini 1.0 Pro LLM (Large Language Model). This endpoint allows you to ask questions or provide prompts, and the model will generate an answer based on the input.
 
